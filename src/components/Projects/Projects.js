@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -11,12 +11,14 @@ const Projects = () => (
 		<GridContainer>
 			{projects.map(({title, description, image, tags, source, visit, id}) => (
 				<BlogCard key={id}>
-					<Img src={image}/>
+					<Img className="p" src={image}/>
+					<br />
 					<TitleContent>
 						<HeaderThree title>{title}</HeaderThree>
 						<Hr />
 					</TitleContent>
 					<CardInfo>{description}</CardInfo>
+					<br />
 					<div>
 						<TitleContent>Stack</TitleContent>
 						<TagList>
@@ -26,8 +28,8 @@ const Projects = () => (
 						</TagList>
 					</div>
 					<UtilityList>
-						<ExternalLinks href={visit}>Code</ExternalLinks>
-						<ExternalLinks href={source}>Live</ExternalLinks>
+						<ExternalLinks href={source}>Code</ExternalLinks>
+						<ExternalLinks href={visit}>Live</ExternalLinks>
 					</UtilityList>
 				</BlogCard>
 			))}

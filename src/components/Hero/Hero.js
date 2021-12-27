@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = (props) => (
+const Hero = () => (
   <Section row nopadding>
 	  <LeftSection>
 		  <SectionTitle main center>
@@ -12,9 +12,9 @@ const Hero = (props) => (
 			  Kristian Vassilev`s Portfolio
 		  </SectionTitle>
 		  <SectionText>
-		  	A tech-savvy professional, who focusses on Web developmenet, ERP Systems and Business consulting.
+		  	I am a tech-savvy professional, who focusses on Web and App development with experience in ERP implementations and business consulting. I am also the CEO of a small web agency - Ephedra-TK.
 		  </SectionText>
-		  <Button onClick={() => window.location = "https://www.etk-design.com/portfolio/"}>Learn More</Button>
+		  <Button onClick={() => window.location.href = "../../../Kristian_G_V_CV_.pdf"}>View my Resume</Button>
 	  </LeftSection>
   </Section>
 );

@@ -9,8 +9,8 @@ const Technologies = () =>  (
 	  <br />
 	  <SectionTitle>Technologies</SectionTitle>
 	  <SectionText>
-		  I have worked with a range of technologies including:
-		  React, JavaScript, CSS, HTML, PHP, WordPress, bgERP, Oracle EBS, Oracle Peoplesoft
+		  I have experience working with a range of technologies including:
+		  React, JavaScript, CSS, HTML, PHP, WordPress, bgERP, Oracle EBS, Odoo, Oracle Peoplesoft
 	  </SectionText>
 	  <List>
 		  <ListItem>
@@ -19,7 +19,7 @@ const Technologies = () =>  (
 				  <ListTitle>Front-End</ListTitle>
 				  <ListParagraph>
 					  Experience with: <br />
-					  React.js, JavaScript, CSS, HTML, WordPress
+					  React.js, JavaScript, JQuery, CSS, HTML, WordPress
 				  </ListParagraph>
 			  </ListContainer>
 		  </ListItem>
@@ -39,7 +39,7 @@ const Technologies = () =>  (
 				  <ListTitle>ERP</ListTitle>
 				  <ListParagraph>
 					  Experience with: <br />
-					  ERPNext, Oracle EBS, Oracle PeopleSoft, bgERP
+					  ERPNext, Oracle EBS, Odoo, Oracle PeopleSoft, bgERP
 				  </ListParagraph>
 			  </ListContainer>
 		  </ListItem>

@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'Holiday Destinations',
-    description: "The app is a place, where its community members can add and vote on holiday destinations across Bulgaria. Users can browse all destinations without registration by utilizing the interactive map and view details when on a destination card.",
+    description: "The app is a place, where its community members can add and vote on holiday destinations across Bulgaria.",
       image: '/images/holiday-destinations.png',
       tags: ['React.js', 'JSX', 'CSS', 'Firebase', 'Headless CMS'],
     source: 'https://github.com/k-vassilev/react-holiday-catalog',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Realtor NextJs',
-    description: "An app for browsing real-estate properties to buy or to rent. The app is fething data from an external API - rapidapi.com. The app is deployed and hosted on vercel.com",
+    description: "An app for browsing real-estate properties to buy or to rent. The app is fething data from an external API - rapidapi.com",
       image: '/images/realtor.png',
       tags: ['React.js', 'Next.js', 'chakra-ui', 'nprogress'],
     source: 'https://github.com/k-vassilev/realtor-nextjs',

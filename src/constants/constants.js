@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Portfolio Landing Page',
+    description: "A portfolio react SPA to showcase additional projects, skillsets, CV and contacts",
+      image: '/images/portfolio.png',
+      tags: ['React.js', 'Next.js', 'Firebase', 'styled-components'],
+    source: 'https://github.com/k-vassilev/kristian_vassilev_portfolio',
+    visit: 'https://kristianvassilev.com/',
+    id: 0,
+  },
+  {
     title: 'Holiday Destinations',
     description: "The app is a place, where its community members can add and vote on holiday destinations across Bulgaria.",
       image: '/images/holiday-destinations.png',
       tags: ['React.js', 'JSX', 'CSS', 'Firebase', 'Headless CMS'],
     source: 'https://github.com/k-vassilev/react-holiday-catalog',
     visit: 'https://react-holiday-catalog.web.app/',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Realtor NextJs',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['React.js', 'Next.js', 'chakra-ui', 'nprogress'],
     source: 'https://github.com/k-vassilev/realtor-nextjs',
     visit: 'https://realtor-nextjs.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Covid-19 Tracker',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React.js', 'Firebase', 'chart.js', 'material-ui'],
     source: 'https://github.com/k-vassilev/react-covid-19-tracker',
     visit: 'https://covid-19-tracker-a2f6e.web.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'React Chat App',
@@ -33,15 +42,6 @@ export const projects = [
     tags: ['React.js', 'Netlify', 'react-chat-engine', 'axios'],
     source: 'https://github.com/k-vassilev/react-kv-chat',
     visit: 'https://kv-chat-app.netlify.app/',
-    id: 3,
-  },
-  {
-    title: 'Portfolio Landing Page',
-    description: "A portfolio react SPA to showcase additional projects, skillsets, CV and contacts",
-    image: '/images/portfolio.png',
-    tags: ['React.js', 'Next.js', 'Firebase', 'styled-components'],
-    source: 'https://github.com/k-vassilev/kristian_vassilev_portfolio',
-    visit: 'https://kristianvassilev.com/',
     id: 4,
   },
   {

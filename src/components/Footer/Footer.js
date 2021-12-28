@@ -22,10 +22,10 @@ const Footer = () => {
 				<Slogan>"Live as if you were to die tomorrow. Learn as if you were to live forever."</Slogan>
 			</CompanyContainer>
 			<SocialIconsContainer>
-				<SocialIcons href="https://github.com/k-vassilev">
+				<SocialIcons href="https://github.com/k-vassilev" target="_blank" rel="noreferrer">
 					<AiFillGithub size="3rem" />
 				</SocialIcons>
-				<SocialIcons href="https://www.linkedin.com/in/kristian-vassilev-86076227/">
+				<SocialIcons href="https://www.linkedin.com/in/kristian-vassilev-86076227/" target="_blank" rel="noreferrer">
 					<AiFillLinkedin size="3rem" />
 				</SocialIcons>
 			</SocialIconsContainer>

@@ -19,7 +19,7 @@ const Footer = () => {
 		</LinkList>
 		<SocialIconsContainer>
 			<CompanyContainer>
-				<Slogan>Live as if you were to die tomorrow. Learn as if you were to live forever.</Slogan>
+				<Slogan>"Live as if you were to die tomorrow. Learn as if you were to live forever."</Slogan>
 			</CompanyContainer>
 			<SocialIconsContainer>
 				<SocialIcons href="https://github.com/k-vassilev">

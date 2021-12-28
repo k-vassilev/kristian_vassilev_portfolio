@@ -12,7 +12,7 @@ const Hero = () => (
 			  Kristian Vassilev`s Portfolio
 		  </SectionTitle>
 		  <SectionText>
-		  	I am a tech-savvy professional, who focusses on Web and App development with experience in ERP implementations and business consulting. I am also the CEO of a small web agency - Ephedra-TK.
+		  	A tech-savvy professional, with focus on Web and App development with experience in ERP implementations and business consulting. I am also the CEO of a small web agency - <a href="https://www.etk-design.com/about/">Ephedra-TK</a>.
 		  </SectionText>
 		  <Button onClick={() => window.location.href = "../../../Kristian_G_V_CV_.pdf"}>View my Resume</Button>
 	  </LeftSection>

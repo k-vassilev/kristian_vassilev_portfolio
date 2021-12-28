@@ -48,9 +48,7 @@ const Timeline = () => {
 		<br />
 		<SectionTitle>About Me</SectionTitle>
 		<SectionText>
-		- Creating various types of websites and contents, ranging from personal blogs to multilingual e-commerce platforms and online shops.
-		<br />
-		- Multiple successful implementation cycles of bgERP - N18 Certified ERP (Enterprise Resource Planning) system for the bulgarian marked across various businesses ranging from local shops to heavy manufacturing companies, software development firms, hotels and more.
+		An always positive person with both financial and dev background, striving for innovation. I have experience ranging from ERP implementations across different industries, running a web agency which created more than 30 projects, including e-commerce shops, marketplaces, portfolios and more to being a web developer for one of the leading WordPress agencies in Europe. Currently I am looking to further enrich my JavaScript and React skills as a front end dev.
 		</SectionText>
 		<CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 			<>

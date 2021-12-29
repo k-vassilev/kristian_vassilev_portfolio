@@ -31,6 +31,7 @@ export const BlogCard = styled.div`
   height: 100vh;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+	height: 100%;
   }
 `;
 export const TitleContent = styled.div`
@@ -78,6 +79,7 @@ export const CardInfo = styled.p`
   height: 15vh;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
+	width: 100%;
   
 }
 `;
